@@ -1,0 +1,36 @@
+.mainNav {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    // align-items: center;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    transform: translate(100%, 0);
+    background-color: darken($grey, 50%);
+    transition: .5s;
+    &--active{
+        transform: translate(0, 0);
+    }
+    &__nav{}
+    &__ul{
+        list-style: none;
+    }
+    &__element{
+        margin: 20px;
+    }
+    &__link{
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-family: $text-standard ;
+        font-weight: bold;
+        font-size: 3rem;
+        &:hover {
+            color: black;
+        }
+    }
+}

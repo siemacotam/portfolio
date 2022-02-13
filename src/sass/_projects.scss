@@ -1,0 +1,75 @@
+.projects {
+    margin: 10px;
+    height: 100%;
+    &__page{
+        height: 80vh;
+        background-color: rgba($color: black, $alpha: 0.2);
+        border-radius: 15px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        @media(max-width: 450px){
+            padding: 10px;
+            height: 70vh;
+        }
+    }
+    &__imgWrap {
+        margin: 5px auto;
+        width: 50%;
+        @media(max-width: 450px){
+            width: 100%;
+        }
+    }
+    &__img{
+        height: 100%;
+    }
+    &__titleWrap{
+        text-align: center;
+        margin: 10px;
+    }
+    &__title {
+        color: white;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 2rem;
+        border-bottom: 2px solid white;
+        padding-bottom: 3px;
+        margin-bottom: 4px;
+        @media(max-width: 450px){
+            font-size: 1.5rem;
+        }
+    }
+    &__link {
+        text-decoration: none;
+        cursor: pointer;
+        transition: .4s;
+        &:hover{
+            color: $red;
+        }
+    }
+    &__detailsWrap{
+        flex-grow: 1;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 10px;
+        background-color: rgba($color: black, $alpha: 0.4);
+    }
+}
+
+#infinite-carousel {
+    // background-color: white;
+    // height: 100%;
+}
+.InfiniteCarouselArrowNextIcon {
+    border: solid black !important;
+    border-width: 0 5px 5px 0 !important;
+}
+
+.InfiniteCarouselArrowPrevIcon {
+    border: solid black !important;
+    border-width: 0 5px 5px 0 !important;
+}
+
+.InfiniteCarouselSlide {
+    height: 80vh !important;
+}

@@ -1,0 +1,15 @@
+.home{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__imgWrapper{
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    &__img {
+        width: 100%;
+    }
+}

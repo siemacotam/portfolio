@@ -1,0 +1,36 @@
+.footer{
+    background-color: darken($grey, 20%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    &__wrap{
+        display: flex;
+        // flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    &__title {
+        font-family:$text-header;
+        letter-spacing: 2px;
+    }
+    &__linksWrap {
+        display: flex;
+        gap: 25px;
+    }
+    &__imgWrap{
+        width: 30px;
+        height: 30px;
+    }
+    &__link {
+        width: 30px;
+        height: 30px;
+        border: none;
+        cursor: pointer;
+    }
+    &__img {
+        width: 100%;
+        height: 100%;
+        background-color: darken($grey, 20%);
+    }
+}
