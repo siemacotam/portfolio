@@ -57,8 +57,8 @@ const Projects = () => {
       docs: 'Projekt wykonany za pomocą react. wykorzystane technologie to : ... , fukncjonalność strony to ...',
     },
     {
-      link: 'https://matchtypeapp.herokuapp.com/',
-      git: null,
+      link: 'https://siemacotam.github.io/portfolio/',
+      git: 'https://github.com/siemacotam/portfolio',
       name: 'Portfolio',
       img: typuj,
       description: 'Portal z ofertami aut - w toku',
