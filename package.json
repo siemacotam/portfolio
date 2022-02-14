@@ -1,10 +1,13 @@
 {
-  "homepage ":"http://siemacotam.github.io/portfolio",
+  "homepage ": "http://siemacotam.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.4.0",
     "@types/react-slick": "^0.23.8",
+    "emailjs": "^3.7.0",
+    "formik": "^2.2.9",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-leaf-carousel": "^3.0.0",

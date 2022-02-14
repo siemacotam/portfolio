@@ -1,0 +1,40 @@
+.contact {
+    &__title {
+        margin: 15px;
+        padding-bottom: 5px;
+    }
+    &__formWrap {
+        width:40%;
+        margin: 0 auto;
+        text-align: center;
+        @media (max-width: 1000px){
+			width: 90%;
+		}
+    }
+    &__inputWrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 70%;
+        margin: 0 auto;
+    }
+    &__inputTitle {
+        color: grey;
+        font-size: 0.8rem;
+    }
+    &__textarea {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+}
+
+.contact__formWrap form {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    background-color: white;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+}
