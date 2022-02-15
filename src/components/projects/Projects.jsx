@@ -3,6 +3,7 @@ import car from '../../images/car.png'
 import main from '../../images/main.png'
 import music from '../../images/music.png'
 import typuj from '../../images/typuj.png'
+import sudoku from '../../images/sudoku.png'
 
 import InfiniteCarousel from 'react-leaf-carousel'
 
@@ -33,10 +34,10 @@ const Projects = () => {
       docs: 'Projekt wykonany za pomocą react. wykorzystane technologie to : ... , fukncjonalność strony to ...',
     },
     {
-      link: 'xxx',
+      link: 'https://siemacotam.github.io/sudoku/',
       git: 'https://github.com/siemacotam/sudoku',
       name: 'SudokuApp',
-      img: music,
+      img: sudoku,
       description: 'Portal z ofertami aut - w toku',
       docs: 'Projekt wykonany za pomocą react. wykorzystane technologie to : ... , fukncjonalność strony to ...',
     },

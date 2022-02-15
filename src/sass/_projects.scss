@@ -15,7 +15,9 @@
     }
     &__imgWrap {
         margin: 5px auto;
-        width: 50%;
+        max-width: 50%;
+        max-height: 50%;
+        padding: 2px;
         @media(max-width: 450px){
             width: 100%;
         }
