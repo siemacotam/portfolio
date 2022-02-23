@@ -1,9 +1,9 @@
-import carbook from '../../images/carbook.png'
-import car from '../../images/car.png'
-import main from '../../images/main.png'
-import music from '../../images/music.png'
-import typuj from '../../images/typuj.png'
-import sudoku from '../../images/sudoku.png'
+// import carbook from '../../images/carbook.png'
+// import car from '../../images/car.png'
+// import main from '../../images/main.png'
+// import music from '../../images/music.png'
+// import typuj from '../../images/typuj.png'
+// import sudoku from '../../images/sudoku.png'
 
 // import InfiniteCarousel from 'react-leaf-carousel'
 

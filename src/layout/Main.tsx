@@ -24,7 +24,7 @@ const Main: FC<IProps> = ({ setIsMenuOpen }) => {
           <Redirect to="/"></Redirect>
         </Switch>
       </div>
-      <MainNav setIsMenuOpen={setIsMenuOpen} />
+      {/* <MainNav setIsMenuOpen={setIsMenuOpen} /> */}
     </main>
   )
 }

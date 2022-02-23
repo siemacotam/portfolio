@@ -17,7 +17,7 @@ const App = () => {
         <Main setIsMenuOpen={setIsMenuOpen} />
         <Footer setIsPopupOpen={setIsPopupOpen} />
       </div>
-      {isPopupOpen && <Popup setIsPopupOpen={setIsPopupOpen} />}
+      {/* {isPopupOpen && <Popup setIsPopupOpen={setIsPopupOpen} />} */}
     </Router>
   )
 }
